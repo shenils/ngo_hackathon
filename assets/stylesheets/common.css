@@ -1,0 +1,67 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+header nav.navbar {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-width: 0 0 1px 0;
+  border-color: rgba(225, 225, 225, 0.15); }
+  header nav.navbar.affix {
+    background-color: black; }
+  header nav.navbar.affix-top {
+    background-color: transparent; }
+  header nav.navbar form input {
+    height: 2.4em;
+    border-radius: 1.2em; }
+  header nav.navbar form i.fa {
+    margin-left: -2.2em;
+    color: rgba(0, 0, 0, 0.3); }
+  header nav.navbar a.navbar-brand .name {
+    color: #27ae60;
+    font-size: 1.2em; }
+  header nav.navbar a.navbar-brand .tagline {
+    color: #FFFFFF;
+    font-size: 0.7em;
+    padding-left: 0.5em; }
+  header nav.navbar.navbar-default .navbar-nav > li > a, header nav.navbar.navbar-default .navbar-nav > li > a:hover, header nav.navbar.navbar-default .navbar-nav > li > a:visited, header nav.navbar.navbar-default .navbar-nav > li > a:link {
+    color: #FFF;
+    border: 3px solid transparent;
+    border-width: 0 0 3px 0;
+    transition: border-color 0.3s ease-in;
+    background-color: transparent; }
+  header nav.navbar.navbar-default .navbar-nav > li > a:hover {
+    border-color: #27ae60; }
+  header nav.navbar.navbar-default .navbar-nav > li.active a {
+    border-color: #FFF; }
+    header nav.navbar.navbar-default .navbar-nav > li.active a, header nav.navbar.navbar-default .navbar-nav > li.active a:hover, header nav.navbar.navbar-default .navbar-nav > li.active a:visited, header nav.navbar.navbar-default .navbar-nav > li.active a:link {
+      background-color: transparent; }
+
+footer {
+  background-color: black;
+  color: #FFFFFF;
+  padding: 5vh 0 15vh;
+  background-color: black;
+  align: center;
+  text-align: center; }
+  footer h2 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2em;
+    padding-top: 3vh; }
+  footer .newsletter-form {
+    color: black;
+    width: 40vw;
+    border: none;
+    height: 4vh;
+    padding-left: 4px; }
+  footer .submit-button {
+    height: 4vh;
+    background-color: #ececec;
+    color: black;
+    border: none;
+    margin-left: 2px;
+    width: 10vw;
+    font-weight: 600; }
+
+/*# sourceMappingURL=common.css.map */

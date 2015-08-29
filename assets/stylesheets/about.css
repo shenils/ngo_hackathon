@@ -1,0 +1,18 @@
+#about {
+  background-color: white;
+  color: black;
+  padding: 2vh 0 2vh; }
+  #about h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    padding-bottom: 2em; }
+  #about p {
+    font-weight: normal;
+    font-size: 2em; }
+  #about img {
+    height: 50vh;
+    width: 100%; }
+
+/*# sourceMappingURL=about.css.map */
